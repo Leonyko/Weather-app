@@ -4,7 +4,6 @@ const api = {
   };
 
   const card = document.getElementById('card')
-  
   const city = document.getElementById('city');
   const date = document.getElementById('date');
   const tempImg = document.getElementById('temp-img');
@@ -23,6 +22,7 @@ const api = {
     tempImg.src = src;
   }
 
+  
 
   async function search(query) {
     try {

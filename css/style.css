@@ -55,13 +55,14 @@ footer {
 }
 
 .weather-card {
-    margin: 20px 20px;
+    margin: 20px auto;
     background: var(--text-color);
     color: var(--bg-color);
     padding: 20px;
     text-align: center;
     border-radius: 3px;
     display: none;
+    max-width: 480px;
 }
 
 .city {
